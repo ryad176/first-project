@@ -1,0 +1,169 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(117, 189, 248);
+    line-height: 1.58;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container {
+    width: 750px;
+}
+}
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+    width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+    width: 1170px;
+    }
+}
+/* End Global Rules */
+/* !start about secion */
+.header {
+    color: white;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+.header p {
+    font-size: 25px;
+    margin: 0 0 12.5px;
+}
+.header a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    line-height: 50px;
+}
+.about-card {
+    background-color: #fff;
+    padding: 3rem;
+}
+.about-card h2{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.about-card img{
+    width:300px;
+}
+.about-card text{
+    display: flex;
+}
+.about-card .discripion {
+    display: flex;
+}
+.about-card .discripion text {
+    display: block;
+}
+.about-card .discripion p {
+    margin-left: 30px;
+}
+/* !end about secion */
+/* !start projects secion */
+.projects-card{
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 50px;
+}
+.projects-card .projects {
+    display: flex;
+}
+.projects-card .amelia img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.projects-card .portland img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.projects-card .denz img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.projects-card .projects .amelia {
+    margin-right: 20px;
+}
+.projects-card .projects .portland {
+    margin-right: 20px;
+}
+/* !end projects secion */
+/* !start work secion */
+.work-card {
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 50px;
+}
+.work-card h2{
+    margin-bottom: 50px;
+}
+.work-card h3 {
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+}
+.work-card p {
+    margin-bottom: 40px;
+}
+/* !end work secion */
+/* !start eduaction secion */
+.education-card {
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 50px;
+}
+.education-card h2{
+    margin-bottom: 50px;
+}
+.education-card .edu-info h3{
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+}
+.education-card .edu-info {
+    display:flex;
+    justify-content:space-around;
+}
+/* !end eduaction secion */
+/* !start language secion*/
+.language-card {
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 50px;
+}
+.language-card h2{
+    margin-bottom: 50px;
+}
+.language-card .lang-info{
+    display:flex;
+    justify-content:space-around;
+    font-size: 20px;
+}
+.language-card .lang-info .h3 small{
+    font-size: 3px;
+}
+/* !end language secion*/
